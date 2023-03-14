@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.learnme">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LearnME">
+        <activity android:name=".Sub_list" />
+        <activity android:name=".Vechile.vechile_two" />
+        <activity android:name=".Vechile.vechile" />
+        <activity android:name=".Alphabet.Alpha_two" />
+        <activity android:name=".Alphabet.Alpha" />
+        <activity android:name=".Colors.colors_two" />
+        <activity android:name=".Colors.colors" />
+        <activity android:name=".Birds.Birds_two" />
+        <activity android:name=".Birds.Birds" />
+        <activity android:name=".Animals.Animals_two" />
+        <activity android:name=".Animals.Animals" />
+        <activity android:name=".Numbers.MainActivity2" />
+        <activity android:name=".Numbers.MainActivity" />
+        <activity android:name=".User">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
